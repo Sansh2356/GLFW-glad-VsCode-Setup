@@ -1,5 +1,5 @@
-CMakeFiles/CmakeTest2.dir/main.cpp.obj: \
- C:\Users\91798\Desktop\Opengl\gladTest\main.cpp \
+CMakeFiles/CmakeTest2.dir/filename.cpp.obj: \
+ C:\Users\91798\Desktop\Opengl\gladTest\filename.cpp \
  c:\mingw64\mingw64\include\c++\12.2.0\iostream \
  c:\mingw64\mingw64\include\c++\12.2.0\x86_64-w64-mingw32\bits\c++config.h \
  c:\mingw64\mingw64\include\c++\12.2.0\x86_64-w64-mingw32\bits\os_defines.h \
@@ -137,30 +137,4 @@ CMakeFiles/CmakeTest2.dir/main.cpp.obj: \
  c:\mingw64\mingw64\include\c++\12.2.0\bits\basic_ios.tcc \
  c:\mingw64\mingw64\include\c++\12.2.0\bits\ostream.tcc \
  c:\mingw64\mingw64\include\c++\12.2.0\istream \
- c:\mingw64\mingw64\include\c++\12.2.0\bits\istream.tcc \
- c:\mingw64\mingw64\include\c++\12.2.0\vector \
- c:\mingw64\mingw64\include\c++\12.2.0\bits\stl_uninitialized.h \
- c:\mingw64\mingw64\include\c++\12.2.0\bits\stl_vector.h \
- c:\mingw64\mingw64\include\c++\12.2.0\bits\stl_bvector.h \
- c:\mingw64\mingw64\include\c++\12.2.0\bits\vector.tcc \
- c:\mingw64\mingw64\include\c++\12.2.0\cmath \
- c:\mingw64\mingw64\x86_64-w64-mingw32\include\math.h \
- c:\mingw64\mingw64\include\c++\12.2.0\bits\specfun.h \
- c:\mingw64\mingw64\include\c++\12.2.0\limits \
- c:\mingw64\mingw64\include\c++\12.2.0\tr1\gamma.tcc \
- c:\mingw64\mingw64\include\c++\12.2.0\tr1\special_function_util.h \
- c:\mingw64\mingw64\include\c++\12.2.0\tr1\bessel_function.tcc \
- c:\mingw64\mingw64\include\c++\12.2.0\tr1\beta_function.tcc \
- c:\mingw64\mingw64\include\c++\12.2.0\tr1\ell_integral.tcc \
- c:\mingw64\mingw64\include\c++\12.2.0\tr1\exp_integral.tcc \
- c:\mingw64\mingw64\include\c++\12.2.0\tr1\hypergeometric.tcc \
- c:\mingw64\mingw64\include\c++\12.2.0\tr1\legendre_function.tcc \
- c:\mingw64\mingw64\include\c++\12.2.0\tr1\modified_bessel_func.tcc \
- c:\mingw64\mingw64\include\c++\12.2.0\tr1\poly_hermite.tcc \
- c:\mingw64\mingw64\include\c++\12.2.0\tr1\poly_laguerre.tcc \
- c:\mingw64\mingw64\include\c++\12.2.0\tr1\riemann_zeta.tcc \
- c:\mingw64\mingw64\include\c++\12.2.0\math.h \
- C:\Users\91798\Desktop\Opengl\gladTest\filename.h \
- C:\Users\91798\Desktop\Opengl\gladTest\glad.h \
- c:\mingw64\mingw64\x86_64-w64-mingw32\include\khr\khrplatform.h \
- C:/Users/91798/Desktop/Opengl/gladTest/external/glfw/include/GLFW/glfw3.h
+ c:\mingw64\mingw64\include\c++\12.2.0\bits\istream.tcc

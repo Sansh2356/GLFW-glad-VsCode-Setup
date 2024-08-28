@@ -212,6 +212,54 @@ update_mappings/fast:
 	$(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\update_mappings.dir\build.make external/glfw/src/CMakeFiles/update_mappings.dir/build
 .PHONY : update_mappings/fast
 
+filename.obj: filename.cpp.obj
+.PHONY : filename.obj
+
+# target to build an object file
+filename.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CmakeTest2.dir\build.make CMakeFiles/CmakeTest2.dir/filename.cpp.obj
+.PHONY : filename.cpp.obj
+
+filename.i: filename.cpp.i
+.PHONY : filename.i
+
+# target to preprocess a source file
+filename.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CmakeTest2.dir\build.make CMakeFiles/CmakeTest2.dir/filename.cpp.i
+.PHONY : filename.cpp.i
+
+filename.s: filename.cpp.s
+.PHONY : filename.s
+
+# target to generate assembly for a file
+filename.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CmakeTest2.dir\build.make CMakeFiles/CmakeTest2.dir/filename.cpp.s
+.PHONY : filename.cpp.s
+
+glad.obj: glad.c.obj
+.PHONY : glad.obj
+
+# target to build an object file
+glad.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CmakeTest2.dir\build.make CMakeFiles/CmakeTest2.dir/glad.c.obj
+.PHONY : glad.c.obj
+
+glad.i: glad.c.i
+.PHONY : glad.i
+
+# target to preprocess a source file
+glad.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CmakeTest2.dir\build.make CMakeFiles/CmakeTest2.dir/glad.c.i
+.PHONY : glad.c.i
+
+glad.s: glad.c.s
+.PHONY : glad.s
+
+# target to generate assembly for a file
+glad.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CmakeTest2.dir\build.make CMakeFiles/CmakeTest2.dir/glad.c.s
+.PHONY : glad.c.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -252,6 +300,12 @@ help:
 	@echo ... update_mappings
 	@echo ... CmakeTest2
 	@echo ... glfw
+	@echo ... filename.obj
+	@echo ... filename.i
+	@echo ... filename.s
+	@echo ... glad.obj
+	@echo ... glad.i
+	@echo ... glad.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
