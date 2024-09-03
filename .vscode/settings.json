@@ -59,6 +59,9 @@
     "glad.h": "c",
     "string.h": "c",
     "stdlib.h": "c",
-    "khrplatform.h": "c"
+    "khrplatform.h": "c",
+    "xtree": "cpp",
+    "set": "cpp",
+    "list": "cpp"
   }
 }
