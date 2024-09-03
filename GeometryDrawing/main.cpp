@@ -75,6 +75,57 @@ void drawCircle(int centerX, int centerY, int radius, int height, int width)
     plotPoint(centerX - y, centerY - x, height, width);
   }
 }
+void drawEllipse(int centerX, int centerY, int a, int b) {
+    int x = 0;
+    int y = b;
+    
+    // Initial decision parameters
+    int a2 = a * a;
+    int b2 = b * b;
+    int twoA2 = 2 * a2;
+    int twoB2 = 2 * b2;
+    int p1 = b2 - (a2 * b) + (0.25f * a2);
+    
+    // Region 1
+    while (twoB2 * x <= twoA2 * y) {
+        // Plot points in all four quadrants
+        plotPoint(centerX + x, centerY + y);
+        plotPoint(centerX - x, centerY + y);
+        plotPoint(centerX + x, centerY - y);
+        plotPoint(centerX - x, centerY - y);
+
+        if (p1 < 0) {
+            // Choose the east point
+            p1 += twoB2 * x + b2;
+        } else {
+            // Choose the southeast point
+            y--;
+            p1 += twoB2 * x - twoA2 * y + b2;
+        }
+        x++;
+    }
+
+    // Region 2
+    int p2 = b2 * ((x + 0.5) * (x + 0.5)) + a2 * ((y - 1) * (y - 1)) - a2 * b2;
+
+    while (y >= 0) {
+        // Plot points in all four quadrants
+        plotPoint(centerX + x, centerY + y);
+        plotPoint(centerX - x, centerY + y);
+        plotPoint(centerX + x, centerY - y);
+        plotPoint(centerX - x, centerY - y);
+
+        if (p2 > 0) {
+            // Choose the north point
+            p2 += a2 - twoA2 * y;
+        } else {
+            // Choose the north-east point
+            x++;
+            p2 += a2 - twoA2 * y + twoB2 * x;
+        }
+        y--;
+    }
+}
 
 void mouse_button_callback(GLFWwindow *window, int button, int action, int mods)
 {
